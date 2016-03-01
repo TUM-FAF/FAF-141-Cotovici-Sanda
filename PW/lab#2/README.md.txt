@@ -1,1 +1,0 @@
-Laboratory Work No.2
