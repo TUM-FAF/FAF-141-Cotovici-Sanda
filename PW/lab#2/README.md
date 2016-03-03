@@ -26,7 +26,7 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
   - for _Bonus Point Tasks_ :
     * Use a scroll bar to scroll through application working space. Scroll should appear only when necessary (eg. when window width is smaller than 300px)
  </br>
-### Completed Tasks
+### Completed tasks:
 
 
   **Display a dialog box on some event (ex. on clicking some button)**
