@@ -25,10 +25,11 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
     * Add a listbox and attach some events when any element is accessed (clicked)
   - for _Bonus Point Tasks_ :
     * Use a scroll bar to scroll through application working space. Scroll should appear only when necessary (eg. when window width is smaller than 300px)
- </br>
+ 
+
+
+</br>
 ### Completed tasks:
-
-
   **Display a dialog box on some event (ex. on clicking some button)**
 
 Is created a dialog box resources.rc file, which popup when is clicked Info option from menu. 
