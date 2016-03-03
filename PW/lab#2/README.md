@@ -26,20 +26,20 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
   - for _Bonus Point Tasks_ :
     * Use a scroll bar to scroll through application working space. Scroll should appear only when necessary (eg. when window width is smaller than 300px)
 ##Completed Tasks
-######Laboratory Work is done in Code::Blocks IDE
+***Laboratory Work is done in Code::Blocks IDE***
 
-  ##Display a dialog box on some event (ex. on clicking some button)
+  **Display a dialog box on some event (ex. on clicking some button)**
 
 Is created a dialog box resources.rc file, which popup when is clicked Info option from menu. 
 For this reason was created procedure`InfoDlgProc()` which will display the dialog box.
-  ##Add a system menu to your application with at least 3 items (add actions to that items)
+  **Add a system menu to your application with at least 3 items (add actions to that items)**
 
 The menu has been created in the resources.rc file. <br> Were created 3 items : `File -> Exit` - exits from the program, `Edit -> Change background color` - changes background color and `Info -> Info` - displaying a dialog box with some information.
 
-  ##Add a scroll bar that will change any visible parameter of any other element (color of a text)
+  **Add a scroll bar that will change any visible parameter of any other element (color of a text)**
 
 Scroll bar is created by procedure`CreateWindowEx()` ,with some parameters:`"SCROLLBAR"` and a `xPos`. The last variable is changing in dependence of the case from `WM_VSCROLL`. In dependence of`xPos` variable and function `SetTextColor()`is changing color of the text from editbox.
-  ##Hook keyboard input. Add 2 custom events for 2 different keyboard combinations
+  **Hook keyboard input. Add 2 custom events for 2 different keyboard combinations**
 
 Hooks : `CTRL + E` for exiting from the application, and `CTRL + I` for displaying a dialog box. These actions are managed in the `WM_HOTKEY` case.
 
