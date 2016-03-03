@@ -25,7 +25,6 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
     * Add a listbox and attach some events when any element is accessed (clicked)
   - for _Bonus Point Tasks_ :
     * Use a scroll bar to scroll through application working space. Scroll should appear only when necessary (eg. when window width is smaller than 300px)
-<br>
 ##Completed Tasks
 ######Laboratory Work is done in Code::Blocks IDE
 
@@ -44,11 +43,11 @@ Scroll bar is created by procedure`CreateWindowEx()` ,with some parameters:`"SCR
 
 Hooks : `CTRL + E` for exiting from the application, and `CTRL + I` for displaying a dialog box. These actions are managed in the `WM_HOTKEY` case.
 
-  ##Add a listbox and attach some events when any element is accessed (clicked)
+  **Add a listbox and attach some events when any element is accessed (clicked)**
 
 Listbox is created using `CreateWindowEx()`  with the 2nd parameter`"LISTBOX"`. My listbox receives elements from a editbox and from Add button.Element could be double-clicked, and apears window with the element's name. Or you can press right click and is displayed a Warning that you can delete element.
 
-  ##Customize your application by adding an icon and using different cursor in application
+  **Customize your application by adding an icon and using different cursor in application**
 
 A custom cursor and icon were added in the main folder. So I have created file resource.rc,in which I have declared IDI\_ICON ICON DISCARDABLE "icon.ico" . This icon is a small bird, downloaded from internet. For cursor I declared ID\_CURSOR CURSOR DISCARDABLE "Button.cur". Also some of windowclass fields were changed `hIcon, hIconSm, hCursor` .
 
