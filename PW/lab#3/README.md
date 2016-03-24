@@ -48,3 +48,7 @@ Basics of Working with Mouse. GDI Primitives. Bezier Curve.
    *  **Eraser** which will erase with different size
    * **Clear all** This button was created for clearing drawing area.
 4.	Custom bitmap images : where used 4 bitmap images, like icons dor pencil ,line, rectangle and ellipse
+
+##Conclusions
+
+This laboratory work was very interesting and full of challenges, because of bugs and different approaches of the same problem. Was hard to work esspecially with Bezier curves. An interesting thing was to arrange all buttons to look like in a professional painter. I have tried to implement all tasks, but I think that I hasn't covered all. But it looks nice! I will work in future for a better quality of features from this laboratory.
