@@ -37,9 +37,9 @@ Basics of Working with Mouse. GDI Primitives. Bezier Curve.
     * Realize the task with mouse eraser for all 3 cases listed above. In order to choose one of them, add 3 buttons/icons or check boxes.
 
 ##Implemented tasks:
-1.	Was created area for drawing.
-2.	Also was created 2 objects with gradient.
-3.	Tools and Shapes which will be used to draw, such as:
+a.	Was created area for drawing.
+b.	Also was created 2 objects with gradient.
+c.	Tools and Shapes which will be used to draw, such as:
    *	**Pencil** tool will draw a continuous line with the stroke weight equal to 1.
    *	**Line** tool will draw a straight line between two points, with the selectable stroke weight and color using the mouse button.
    *	**Ellipse** tool will draw an ellipse, with selectable stroke weight and color, filled with a selectable color,using the mouse button.
@@ -47,7 +47,7 @@ Basics of Working with Mouse. GDI Primitives. Bezier Curve.
    *	**Bezier curve.** The Bezier curve can be drawn using mouse,by clicking and draging two times.
    *  **Eraser** which will erase with different size
    * **Clear all** This button was created for clearing drawing area.
-4.	Custom bitmap images : where used 4 bitmap images, like icons dor pencil ,line, rectangle and ellipse
+d.	Custom bitmap images : where used 4 bitmap images, like icons dor pencil ,line, rectangle and ellipse
 
 ##Conclusions
 
