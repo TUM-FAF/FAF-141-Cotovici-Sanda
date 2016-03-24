@@ -1,0 +1,12 @@
+#include "resources.h"
+#include "afxres.h"
+//Icon location
+IDI_ICON  ICON DISCARDABLE "icon.ico"
+//Menu
+
+BitmapFile BITMAP pen.bmp
+BitmapFile1 BITMAP line.bmp
+BitmapFile2 BITMAP ellipse.bmp
+BitmapFile3 BITMAP rect.bmp
+
+
