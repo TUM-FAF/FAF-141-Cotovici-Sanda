@@ -11,6 +11,5 @@
 
 ///define IDs for keyboard management
 #define KEY_E	0x45  /// exit
-#define F1	    0x70  // help
 #define KEY_C   0x43  /// manage color of lisbpx
 #define RETURN	0x0D  /// output information

@@ -47,31 +47,29 @@ LONG CALLBACK GroupRelay(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine, int iCmdShow)
 {
-    WNDCLASSEX wnd;
+    WNDCLASSEX wincl;
     MSG msg;
     HWND hwnd;
     hInst = hInstance;
 
     /* The Window Structure */
-    wnd.hInstance = hInst;
-    wnd.lpszClassName = szClassName;
-    wnd.lpfnWndProc = WindowProcedure;
-    wnd.style = CS_HREDRAW | CS_VREDRAW;
-    wnd.cbSize = sizeof(WNDCLASSEX);
+    wincl.hInstance = hInst;
+    wincl.lpszClassName = szClassName;
+    wincl.lpfnWndProc = WindowProcedure;
+    wincl.style = CS_HREDRAW | CS_VREDRAW;
+    wincl.cbSize = sizeof(WNDCLASSEX);
 
     /* Use default icon and mouse-pointer */
-    //wnd.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));                                // Default icon
-    //wnd.hIconSm = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
-    wnd.hIcon = LoadIcon (NULL, IDI_APPLICATION);
-    wnd.hIconSm = LoadIcon (NULL, IDI_APPLICATION);                             // Default icon
-    wnd.hCursor = LoadCursor(NULL, IDC_ARROW);                                  // Default arrow mouse cursor
-    wnd.lpszMenuName = NULL;                                                    // No menu
-    wnd.cbClsExtra = 0;                                                         // No extra bytes after the window class
-    wnd.cbWndExtra = 0;                                                         //  structure or the window instance
+    wincl.hIcon = LoadIcon (NULL, IDI_APPLICATION);
+    wincl.hIconSm = LoadIcon (NULL, IDI_APPLICATION);                             // Default icon
+    wincl.hCursor = LoadCursor(NULL, IDC_ARROW);                                  // Default arrow mouse cursor
+    wincl.lpszMenuName = NULL;                                                    // No menu
+    wincl.cbClsExtra = 0;                                                         // No extra bytes after the window class
+    wincl.cbWndExtra = 0;                                                         //  structure or the window instance
 
-    wnd.hbrBackground = (HBRUSH)CreateSolidBrush(RGB(216,191,216));
+    wincl.hbrBackground = (HBRUSH)CreateSolidBrush(RGB(216,191,216));
 
-    if(!RegisterClassEx(&wnd))                                                  // Register the WNDCLASSEX
+    if(!RegisterClassEx(&wincl))                                                  // Register the WNDCLASSEX
     {
         MessageBox(NULL, "This Program Requires Windows NT", "Error", MB_OK);
         return 0;
