@@ -1,5 +1,0 @@
-spline, lines -> right click -/.bezier for points
-lathe - > se face obiectul dupa axa
-tragem cu move
-shell- dam grosime modelului
-din spline - > Rendering , alegi toate 3 optiuni...obiectul devine solid(capata grosime)
