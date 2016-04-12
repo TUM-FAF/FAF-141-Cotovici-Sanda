@@ -30,7 +30,7 @@ int WINAPI WinMain (HINSTANCE hInst, HINSTANCE hPrevInstance, LPSTR lpszArgument
     wnd.lpszMenuName = NULL;
     wnd.cbClsExtra = 0;
     wnd.cbWndExtra = 0;
-    wnd.hbrBackground = (HBRUSH)CreateSolidBrush(RGB(255,192,203));
+    wnd.hbrBackground =  (HBRUSH) GetStockObject(WHITE_BRUSH);
 
     COLORREF clr;
     if (!RegisterClassEx (&wnd))
