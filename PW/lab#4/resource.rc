@@ -1,0 +1,5 @@
+#include "object.h"
+#include <windows.h>
+
+
+IDI_ICON ICON DISCARDABLE "icon.ico"
