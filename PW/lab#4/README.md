@@ -43,5 +43,5 @@ the color is changed.When objects interacts with margins of the window, they are
 
 ##Conclusions
 
-This laboratory work was very interesting and full of challenges, because of bugs and different approaches of the same problem. Was hard to work esspecially with Bezier curves. An interesting thing was to arrange all buttons to look like in a professional painter. I have tried to implement all tasks, but I think that I hasn't covered all. But it looks nice! I will work in future for a better quality of features from this laboratory.
+This laboratory work was very interesting because I understand why my last laboratory work had bugs, because of flickering problem. Now I solved this problem with double-buffering technique and including case of WM_ERASEBKGND message, which clears the background. Also, in this laboratory was the first using of Timer and creating some animated balls which can change their velocity,color and shape. Their shape is changed if it is an iteraction with window's margins, color - if objects interacts with others and velocity can be changed using mouse or keyboard.
 
